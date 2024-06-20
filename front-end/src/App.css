@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  min-width: 100%;
+}
+li {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /* background-color: #c0bbbb; Background color */
+  display: flex;
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
+.header {
+  text-align: center; /* Left-aligned with 10% vw margin */
+  /* margin-left: 40vw; */
+  display: flex;
+  flex-direction: row;
+  background-color: #2cace4; /* Secondary color from logo */
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footer {
+  width: 100%;
+  color: #ffffff; /* Footer text color */
+  text-align: center;
+  font-size: 0.8rem; /* Small text size */
+  padding: 0.5rem 0; /* Padding for footer content */
+  position: absolute;
+  bottom: 0;
+}
+
+.form-container {
+  margin: 2rem 0 3rem 0; /* Adjust as needed */
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.results {
+  padding: 0 1rem;
+}
+
+.result-section {
+  margin-bottom: 1rem; /* Adjust as needed */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 0.5rem;
+  padding: 1rem;
+  
+}
+
+.result-section h3 {
+  margin-top: 0;
+
+}
+
+button {
+  background-color: #c7d835; /* Green color from logo */
+  color: #ffffff; /* Text color for buttons */
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9ccc63; /* Darker shade of green on hover */
+}
+
+/* Add more specific styling as needed */
+
+Select {
+  min-width: 50%;
+}
+
+img {
+  max-height: 1.5rem;
+  padding-right: 10px;
+}
+
+.too-long {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  margin: 0.5rem 0;
+}
+
+.italics {
+  font-style: italic;
+  max-width: 20vw;
+
+}
+
+h4 {
+  margin: 0.5rem;
+}
